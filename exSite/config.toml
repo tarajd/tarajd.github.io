@@ -49,7 +49,7 @@ h = "518"
 
 [[params.subprojects.list]]
 title = "Earthquake Response Web Application StoryMap"
-url = "https://arcg.is/KXDmy1"
+url = "https://arcg.is/1iP0Oi1"
 description = "The process of creating an application that allows users to access relevant data regarding a recent earthquake"
 image = "images/EarthquakeResponseApplicationCover.png"
 w = "780"
