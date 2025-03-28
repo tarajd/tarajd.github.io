@@ -1,0 +1,67 @@
+# Page settings
+
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Tara Disser's Online Portfolio"
+copyright = "© Hugo Theme Doors"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+googleTagManager = "GTM-xxxxxxxx"
+description = ""
+ogimage = "images/profilePicture.JPG"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = "Forest Inventory Data Synthesis"
+url = "https://tarajd.github.io/geog-data-synthesis/TDisser_ANOVA_Regression.html"
+description = "Analysis and synthesis of Oregon Forest Inventory and Analysis data with plots and maps; made using RStudio"
+image = "images/GeogDataSynthesisMap.png"
+w = "780"
+h = "518"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "24-hour hackathon project"
+url = "https://github.com/tarajd/Hack_UO"
+description = "Class schedules downloaded in HTML format by University of Oregon students are uploaded, parsed to find common free times, and the resulting free times are displayed in a matrix format"
+image = "images/CATSKschedule_display_page.png"
+w = "780"
+h = "522"
+
+[[params.subprojects.list]]
+title = "Escape Room Data Collection StoryMap"
+url = "https://storymaps.arcgis.com/stories/325670a217ec438abc8d87de2978894c"
+description = "Looking at Escape Rooms in the San Diego Metropolitan Area and comparing some of their attributes"
+image = "images/EscapeRoomCover.png"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "Earthquake Response Web Application StoryMap"
+url = "https://arcg.is/KXDmy1"
+description = "The process of creating an application that allows users to access relevant data regarding a recent earthquake"
+image = "images/EarthquakeResponseApplicationCover.png"
+w = "780"
+h = "518"
+
+# Contact section
+[params.contact]
+avatar = "images/profilePicture.JPG"
+name = "Tara Disser"
+twitter = ""
+facebook = ""
+linkedin = "https://www.linkedin.com/in/taradisser/"
+instagram = ""
+github = "https://github.com/tarajd"
+email = "mailto:tjdisser@gmail.com"
