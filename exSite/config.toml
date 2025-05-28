@@ -21,10 +21,18 @@ ogimage = "images/profilePicture.JPG"
 [params.projects]
 
 [[params.projects.list]]
-title = "Forest Inventory Data Synthesis"
+title = "Principal Component Analysis on Alaskan FIA Dataset"
+url = "https://tarajd.github.io/geog-data-synthesis/TDisser_PCA.html"
+description = "Principal Component Analysis on Alaskan Forest Inventory and Analysis Dataset; made using RStudio"
+image = "images/PCAPlot.png"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "Oregon Tree Inventory Data Synthesis"
 url = "https://tarajd.github.io/geog-data-synthesis/TDisser_ANOVA_Regression.html"
-description = "Analysis and synthesis of Oregon Forest Inventory and Analysis data with plots and maps; made using RStudio"
-image = "images/GeogDataSynthesisMap.png"
+description = "Analysis and synthesis (ANOVA + Regression) of Oregon Tree Inventory data; made using RStudio"
+image = "images/TreeResidualsMap.png"
 w = "780"
 h = "518"
 
@@ -37,7 +45,7 @@ url = "https://github.com/tarajd/Hack_UO"
 description = "Class schedules downloaded in HTML format by University of Oregon students are uploaded, parsed to find common free times, and the resulting free times are displayed in a matrix format"
 image = "images/CATSKschedule_display_page.png"
 w = "780"
-h = "522"
+h = "518"
 
 [[params.subprojects.list]]
 title = "Escape Room Data Collection StoryMap"
