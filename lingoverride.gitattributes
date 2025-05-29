@@ -1,0 +1,2 @@
+# Re-classify .Rmd files
+*.Rmd linguist-language=R
